@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hidden {
+    background-color: #006eff;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 20px;
+}
